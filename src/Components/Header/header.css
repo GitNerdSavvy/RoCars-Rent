@@ -1,0 +1,128 @@
+/* .header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+} */
+
+.search-filter {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  .search-bar {
+    width: 30%;
+    display: flex;
+    background: rgba(255, 255, 255,0.2);
+    align-items: center;
+    border-radius: 60px;
+    padding: 1px 10px;
+    border: 1px solid black;
+  }
+  .search-bar>input{
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    font-size: 20px;
+    color: #000000;
+  }
+  ::placeholder{
+    color: cac7ff ;
+    font-size: 15px;
+  }
+  .btn{
+    border: 0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    background: #58629b;
+  }
+  .btn:hover{
+    cursor: pointer;
+    color: orange;
+  }
+  .dropdown{
+    border: none;
+   
+  }
+  .dropdown:hover{
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  .car-grid {
+    display: grid;
+    align-self: center;
+    justify-self: center;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    gap: 20px; 
+    padding: 10px;
+    border-radius: 10px;
+   object-fit: cover;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer-filter{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    /* margin-left: 18rem;
+    margin-right: 20rem; */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    border: 1px solid gray;
+  }
+  .left-s{
+    padding: 8px;
+  }
+  .right-s{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    margin-right: 1rem;
+  }
+
+  .page-btn{
+    color: black;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  .page-btn:hover{
+    cursor: pointer;
+    border: 1px solid orange;
+  }
+  .page-btn:disabled {
+    cursor: not-allowed;
+    background-color: #cccccc; /* Greyed-out background */
+    color: #666666;           /* Greyed-out text */
+  }
+  #active{
+    color: black;
+    background-color: orange;
+    border: 1px solid gray;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
